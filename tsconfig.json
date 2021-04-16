@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "target": "ES6",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "paths": {
+      "//*": ["*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
